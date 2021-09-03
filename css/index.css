@@ -292,3 +292,14 @@ header {
     color:red;
     transition: .2s;
   } 
+
+  .top-image{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-about-page{
+    display:flex;
+    border: 2px solid black;
+    
+}

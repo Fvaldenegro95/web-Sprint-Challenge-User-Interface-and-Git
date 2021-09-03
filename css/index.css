@@ -87,6 +87,7 @@ p {
         margin-left:29%;
         margin-right:29%;
         padding-bottom:1%;
+        line-height:1.4;
     }
 
 .top-content .text-container {
@@ -94,6 +95,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;
     justify-content: center;
+    padding-top: 2%;
 }
 
 .middle-content {
@@ -226,19 +228,11 @@ header {
     align-items: center;
 }
  
-/* .imagecontainers{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    height:40vh;
-    border: 5px red solid;
-} */
 .imagecontainers {
     display: flex;
     max-width: 100%;
     justify-content:space-between;
     margin: 0%;
-    border:2px solid red;
     padding-bottom:5%;
   }
   .imagecontainers2 {
@@ -246,25 +240,18 @@ header {
     max-width: 100%;
     justify-content:space-between;
     margin: 0%;
-    border:2px solid red;
+
   }
 
-/* .container-about-page1{
-    display:flex;
-    border-bottom: 1px dashed black;
-    max-width:20%;
-    justify-content:space-between;
-    margin:2%;
-    padding-bottom:1%;   
-    margin-left: 1%;
-} */
+
 .container-about-page1{
     display:flex;
     border-bottom: 1px dashed black;
     max-width:50%;
     justify-content:space-between;
     margin:2%;
-    padding-bottom:2%;  
+    padding-bottom:2%;
+    line-height:1.4; 
 
  } *
 .container-about-page2{
@@ -273,7 +260,8 @@ header {
     max-width:50%;
     justify-content:space-between;
     margin:2%;
-    padding-bottom:2%;  
+    padding-bottom:2%;
+    line-height:1.4;
 
  } 
 .container-about-page3{
@@ -282,7 +270,8 @@ header {
     max-width:50%;
     justify-content:space-between;
     margin:2%;
-    padding-bottom:2%;  
+    padding-bottom:2%;
+    line-height:1.4;
 
 
  } 
@@ -293,11 +282,13 @@ header {
     justify-content:space-between;
     margin:2%;
     padding-bottom:2%;  
+    line-height:1.4;
 
  } 
 .footertext{
-    max-width:80%;
-    padding: 0 5%;
+    max-width:100%;
+    padding-bottom: 5%;
+    line-height:1.4;
 
 }
 .button {

@@ -80,16 +80,14 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.top-content2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    margin-left:25%;
-    margin-right:25%;
-    padding-bottom:1%;
-}
+    .top-content2 {
+        display: flex;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        margin-left:29%;
+        margin-right:29%;
+        padding-bottom:1%;
+    }
 
 .top-content .text-container {
     width: 48%;
@@ -117,7 +115,6 @@ p {
 .middle-content .boxes *{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -156,11 +153,6 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-
-.top-image {
-    padding-bottom: 1%;
-    display:flex;
 }
 
 .boxes .box1{
@@ -203,14 +195,11 @@ header {
     background-color: white;
   }
   .logo {
-    margin-right: auto;
+    margin-right: 15%;
   }
     .nav__links {
     display: flex;
   }
-  
-
-
   
  .nav__links li a {
     padding: 0px 20px;
@@ -232,66 +221,85 @@ header {
     .top-image2{
     display:flex;
     margin: auto;
-    border: 2px solid black;
     justify-content:space-around;
     padding-bottom: 1%;
     align-items: center;
 }
-
-.imagecontainers{
+ 
+/* .imagecontainers{
     display:flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    margin-left: 10%;
     height:40vh;
-}
- .container-about-page1{
+    border: 5px red solid;
+} */
+.imagecontainers {
+    display: flex;
+    max-width: 100%;
+    justify-content:space-between;
+    margin: 0%;
+    border:2px solid red;
+    padding-bottom:5%;
+  }
+  .imagecontainers2 {
+    display: flex;
+    max-width: 100%;
+    justify-content:space-between;
+    margin: 0%;
+    border:2px solid red;
+  }
+
+/* .container-about-page1{
     display:flex;
     border-bottom: 1px dashed black;
     max-width:20%;
     justify-content:space-between;
     margin:2%;
     padding-bottom:1%;   
-    margin-left:12%;
-}
+    margin-left: 1%;
+} */
+.container-about-page1{
+    display:flex;
+    border-bottom: 1px dashed black;
+    max-width:50%;
+    justify-content:space-between;
+    margin:2%;
+    padding-bottom:2%;  
+
+ } *
 .container-about-page2{
     display:flex;
     border-bottom: 1px dashed black;
-    max-width:20%;
-    justify-content:space-around;
+    max-width:50%;
+    justify-content:space-between;
     margin:2%;
-    padding-bottom:2%;   
-    margin-right:25%;
-}
+    padding-bottom:2%;  
+
+ } 
 .container-about-page3{
     display:flex;
     border-bottom: 1px dashed black;
-    max-width:23%;
-    justify-content:space-around;
-    margin:2%;   
-    padding-bottom:1%; 
-    margin-left:14%;
-    margin-top:5%;
-}
-.container-about-page4{
+    max-width:50%;
+    justify-content:space-between;
+    margin:2%;
+    padding-bottom:2%;  
+
+
+ } 
+ .container-about-page4{
     display:flex;
     border-bottom: 1px dashed black;
-    max-width:20%;
-    justify-content:space-around;
-    margin:2%;   
-    padding-bottom:1%;   
-    margin-right:27%;
-    margin-top:5%;
-}
+    max-width:50%;
+    justify-content:space-between;
+    margin:2%;
+    padding-bottom:2%;  
+
+ } 
 .footertext{
+    max-width:80%;
+    padding: 0 5%;
 
-    padding-top: 7%;
-    padding-bottom: 2%;
-    margin-left: 28%;
-    margin-right: 30%;
-    line-height:1.4;
 }
-
 .button {
     background-color: white;
     border: 3px solid black;
